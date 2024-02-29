@@ -1,0 +1,150 @@
+
+@media only screen and (max-width:320px){
+    p.sub_head {
+        color: #fff;
+        font-size: 12px !important;
+        font-weight: 400;
+    }
+    h2.ban_head {
+        font-size: 25px !important;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 5px !important;
+    }
+    p.choose_para{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width:426px){
+    .overlay_content {
+        position: absolute;
+        top: 10% !important;
+        left: 5%;
+        width: auto;
+    }
+    p.sub_head {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    h2.ban_head {
+        font-size: 30px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 8px;
+    }
+    .choose{
+        padding: 0px;
+    }
+    a.navbar-brand{
+        width:26%;
+    }
+    img.image_pre {
+        position: absolute;
+        left: 36%;
+        top: 45%;
+        height: 3vh;
+    }
+    .abt-head2{
+        margin-top: 30%;
+    }
+
+}
+@media only screen and (min-width:427px) and (max-width:542px){
+    .overlay_content {
+        position: absolute;
+        top: 10% !important;
+        left: 5%;
+        width: auto;
+    }
+    p.sub_head {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    h2.ban_head {
+        font-size: 30px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    a.navbar-brand{
+        width:26%;
+    }
+    img.image_pre {
+        position: absolute;
+        left: 40%;
+        top: 45%;
+        height: 3vh;
+    }
+    .abt-head2{
+        margin-top: 30%;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .overlay_content {
+        position: absolute;
+        top: 20% !important;
+        left: 5%;
+        width: 100% !important;
+    }
+    a.navbar-brand{
+        width:12%;
+    }
+    .card.chooseus{
+        height:68vh;
+    }
+}
+@media only screen and (max-width:991px){
+    .offcanvas.show .navbar-brand {
+        width: 40%;
+    }
+    .offcanvas.show ul.navbar-nav {
+        margin-left: -45% !important;
+    }
+    .offcanvas-header .btn-close {
+        font-size: 20px;
+    }
+    li.nav-item:hover::before{
+        width: 50% !important;
+    }
+    .splide__slide img {
+        width: 100%;
+        height: auto;
+      object-fit: cover;
+    }
+    .about{
+        height: auto;
+    }
+    .abt-content{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    a.btn.btn-outline-primary{
+        margin: 25px 0 20px 0;
+        background: #b25921;
+    }
+    a.btn.btn-outline-primary:hover{
+        background: #fff;
+        color: #b25921;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1339px){
+    .choose{
+        padding: 20px;
+    }
+    .card.chooseus{
+        padding: 15px;
+    }
+    .choose_para{
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (min-width:1440px){
+    .card.chooseus{
+        height:68vh;
+    }
+}
